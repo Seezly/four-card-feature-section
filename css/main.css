@@ -1,0 +1,125 @@
+/*
+
+VARIABLES
+
+*/
+/*
+
+COLORS
+
+*/
+/*
+
+TYPOGRAPHY
+
+*/
+/*
+
+TYPOGRAPHY
+
+*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,600;1,200;1,400;1,600&display=swap");
+/*
+
+BODY
+
+*/
+html {
+  height: 100%;
+}
+
+body {
+  font-size: 15px;
+  font-family: "Poppins", "Helvetica neue", Helvetica;
+  font-weight: 400;
+  line-height: 1.75rem;
+  color: #a3a5ae;
+  background-color: #fafafa;
+  height: 100%;
+}
+
+/*
+
+MAIN
+
+*/
+.container {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+.container__text {
+  text-align: center;
+  margin: 6rem 0 0 0;
+}
+.container__text__subtitle {
+  font-weight: 200;
+  color: #4c4e61;
+}
+.container__text__title {
+  color: #4c4e61;
+  font-weight: 600;
+  font-size: 2em;
+}
+.container__text__support {
+  font-weight: 400;
+  margin-top: 1.75rem;
+}
+.container__cards {
+  margin: 4.5rem 0;
+}
+.container__cards .card {
+  background-color: white;
+  border-top: 0.25rem solid transparent;
+  border-radius: 2.5%;
+  margin-top: 1.75rem;
+  padding: 1.75rem;
+  box-shadow: 0 0.66rem 1rem 0 rgba(84, 158, 242, 0.1);
+  position: relative;
+  height: 15rem;
+}
+.container__cards .card__title {
+  font-weight: 600;
+  color: #4c4e61;
+}
+.container__cards .card__content__text {
+  font-weight: 200;
+}
+.container__cards .card:first-child {
+  border-color: #45d3d3;
+  background: url("../images/icon-supervisor.svg") 90% 80% no-repeat;
+}
+.container__cards .card:nth-child(2) {
+  border-color: #ea5353;
+  background: url("../images/icon-team-builder.svg") 90% 80% no-repeat;
+}
+.container__cards .card:nth-child(3) {
+  border-color: #fcaf4a;
+  background: url("../images/icon-karma.svg") 90% 80% no-repeat;
+}
+.container__cards .card:last-child {
+  border-color: #549ef2;
+  background: url("../images/icon-calculator.svg") 90% 80% no-repeat;
+}
+
+footer {
+  width: 100%;
+  color: #a3a5ae;
+  text-align: center;
+  position: absolute;
+  font-weight: 200;
+}
+footer h6 {
+  font-weight: 200;
+}
+footer a {
+  color: #4c4e61;
+  text-decoration: none;
+  font-weight: 600;
+}
+footer__wavy {
+  text-decoration: wavy underline;
+}
+
+/*# sourceMappingURL=main.css.map */

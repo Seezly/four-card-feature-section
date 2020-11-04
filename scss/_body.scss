@@ -1,0 +1,13 @@
+html {
+    height: 100%;
+}
+
+body {
+    font-size: $fontSize;
+    font-family: 'Poppins', 'Helvetica neue', Helvetica;
+    font-weight: $normal;
+    line-height: 1.75rem;
+    color: $grayBlue;
+    background-color: $lightGray;
+    height: 100%;
+}
