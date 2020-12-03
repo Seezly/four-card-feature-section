@@ -11,6 +11,7 @@
         &__subtitle {
             font-weight: $light;
             color: $darkBlue;
+            margin: 0 0 1.5rem 0;
         }
 
         &__title {
@@ -34,7 +35,7 @@
             border-radius: 2.5%;
             margin-top: 1.75rem;
             padding: 1.75rem;
-            box-shadow: 0 0.66rem 1rem 0 rgba($blue, $alpha: 0.1);
+            box-shadow: 0 0.66rem 1rem 0 rgba($blue, $alpha: 0.175);
             position: relative;
             height: 15rem;
 
@@ -45,7 +46,6 @@
 
             &__content {
 
-
                 &__text {
                     font-weight: $light;
                 }
@@ -53,22 +53,22 @@
 
             &:first-child {
                 border-color: $cyan;
-                background: url('../images/icon-supervisor.svg') 90% 80% no-repeat;
+                background: url('../images/icon-supervisor.svg') #fff 90% 80% no-repeat;
             }
 
             &:nth-child(2) {
                 border-color: $red;
-                background: url('../images/icon-team-builder.svg') 90% 80% no-repeat;
+                background: url('../images/icon-team-builder.svg') #fff 90% 80% no-repeat;
             }
 
             &:nth-child(3) {
                 border-color: $orange;
-                background: url('../images/icon-karma.svg') 90% 80% no-repeat;
+                background: url('../images/icon-karma.svg') #fff 90% 80% no-repeat;
             }
 
             &:last-child {
                 border-color: $blue;
-                background: url('../images/icon-calculator.svg') 90% 80% no-repeat;
+                background: url('../images/icon-calculator.svg') #fff 90% 80% no-repeat;
             }
         }
     }
@@ -91,7 +91,7 @@ footer {
         font-weight: $bold;
     }
 
-    &__wavy {
+    .wavy {
         text-decoration: wavy underline;
     }
 }
